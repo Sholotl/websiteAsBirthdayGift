@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lugar_01",
+    "titulo": "Nuestra cafetería",
+    "nota": "Aquí tuvimos nuestra primera cita.",
+    "foto": "cafeteria.jpg",
+    "audio": "cafeteria.mp3"
+  },
+  {
+    "id": "lugar_02",
+    "titulo": "El parque",
+    "nota": "Uno de nuestros lugares favoritos.",
+    "foto": "parque.jpg",
+    "audio": null
+  }
+]
