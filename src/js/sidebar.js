@@ -12,8 +12,14 @@ ready.then(({ locations, content }) => {
         li.textContent = info.titulo;
         
         li.addEventListener("click", () => {
-            map.setView([location.lat, location.lng], 17);
-            markers[location.id].openPopup();
+            map.setView([location.lat, location.lng], 15, {
+                animate: true,
+                duration: 1.5,
+                easeLinearity: 0.25
+            });
+            map.once('moveend', () => {
+                markers[location.id].openPopup();
+            });
         });
 
         sidebarList.appendChild(li);
