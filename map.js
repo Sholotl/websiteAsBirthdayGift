@@ -1,4 +1,5 @@
-const map = L.map('map').setView([19.0485386, -98.2166069], 15)
+export let map = L.map('map').setView([19.0485386, -98.2166069], 15)
+export let markers = {};
 
 const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
@@ -6,6 +7,7 @@ const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/ali
 	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	ext: 'png'
 }).addTo(map);
+map.zoomControl.remove();
 
 function createMarkers(locations, content) 
 {
@@ -28,9 +30,10 @@ function createMarkers(locations, content)
             `;
         }
 
-        L.marker([location.lat, location.lng])
+        let marker = L.marker([location.lat, location.lng])
             .addTo(map)
             .bindPopup(popup);
+		markers[location.id] = marker
     }
 }
 
@@ -46,7 +49,7 @@ function loadContent()
         .then(response => response.json());
 }
 
-Promise.all([
+export const ready = Promise.all([
 
 		loadLocations(),
 		loadContent()
@@ -54,4 +57,5 @@ Promise.all([
 	]).then(([locations, content]) => {
 
 		createMarkers(locations, content)
+        return { locations, content }; 
 });
