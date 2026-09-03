@@ -13,7 +13,7 @@ ready.then(({ locations, content }) => {
         
         li.addEventListener("click", () => {
             const zoom = 15;
-            const offsetPoint = map.project([location.lat, location.lng], zoom).subtract([0, 200]);
+            const offsetPoint = map.project([location.lat, location.lng], zoom).subtract([0, 300]);
             const offsetLatLng = map.unproject(offsetPoint, zoom);
  
             map.setView(offsetLatLng, zoom, {

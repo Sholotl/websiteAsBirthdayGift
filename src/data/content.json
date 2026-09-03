@@ -1,16 +1,65 @@
 [
   {
     "id": "lugar_01",
-    "titulo": "Nuestra cafetería",
-    "nota": "Aquí tuvimos nuestra primera cita.",
-    "foto": "src/assets/photos/ccTem.jpg",
-    "audio": "src/assets/audio/colors-flowTem.mp3"
+    "titulo": "El parque cerca de galerias",
+    "nota": "Realmente es muy loco pensar",
+    "foto": "src/assets/photos/051225.JPG",
+    "audio": null
   },
   {
     "id": "lugar_02",
-    "titulo": "El parque",
-    "nota": "Uno de nuestros lugares favoritos.",
-    "foto": "src/assets/photos/ccTem.jpg",
+    "titulo": "Cholula cuidad sagrada",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050126.JPG",
+    "audio": null
+  },
+  {
+    "id": "lugar_03",
+    "titulo": "El ecologico",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050226.JPG",
+    "audio": null
+  },
+  {
+    "id": "lugar_04",
+    "titulo": "Scream 7 en cinepolis",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050326.JPEG",
+    "audio": null
+  },
+  {
+    "id": "lugar_05",
+    "titulo": "El parque metropolitano",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050426.JPEG",
+    "audio": null
+  },
+  {
+    "id": "lugar_06",
+    "titulo": "Hokum en cinepolis",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050526.JPEG",
+    "audio": null
+  },
+  {
+    "id": "lugar_07",
+    "titulo": "La panaderia esperanza",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050626.JPG",
+    "audio": null
+  },
+  {
+    "id": "lugar_08",
+    "titulo": "Mundial luego de la hacienda",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050726.JPG",
+    "audio": null
+  },
+  {
+    "id": "lugar_09",
+    "titulo": "El coliseo con el jacuzzi",
+    "nota": "Es muy loco que en el ecologico",
+    "foto": "src/assets/photos/050826.JPEG",
     "audio": null
   }
 ]

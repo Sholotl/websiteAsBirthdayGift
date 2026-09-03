@@ -10,7 +10,7 @@
     --cream: #fff0f6;
     --text-dark: #4a0d2b;
     --text-light: #fff0f6;
-    --shadow-soft: 0 10px 30px rgba(163, 19, 79, 0.35);
+    --shadow-soft: 0 5px 15px rgba(163, 19, 79, 0.18);
     --radius-md: 18px;
     --radius-lg: 28px;
     --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -102,7 +102,7 @@ body {
 .frontpage-content h1 {
     margin: 0 0 18px;
     font-family: var(--font-title);
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     line-height: 1.15;
     font-weight: 700;
     color: #fff;
@@ -111,7 +111,7 @@ body {
  
 .frontpage-content p {
     margin: 0 0 36px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff0f6;
     opacity: 0.95;
 }
@@ -164,7 +164,6 @@ body {
     backdrop-filter: blur(8px);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-soft);
-    border: 1px solid rgba(255, 93, 162, 0.35);
  
     padding: 10px;
 }
@@ -174,7 +173,14 @@ body {
     margin: 0;
     padding: 0;
 }
- 
+
+#sidebar h1 {
+    margin: 4px 0 12px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--pink-deep);
+}
+
 .sidebar-item {
     padding: 14px 18px;
     margin-bottom: 8px;
@@ -217,7 +223,7 @@ body {
 .leaflet-popup-tip {
     background: var(--cream);
 }
- 
+
 .leaflet-popup-content {
     margin: 22px 26px;
     width: 340px !important;
@@ -303,5 +309,55 @@ body {
  
     .leaflet-popup-content {
         width: 260px !important;
+    }
+}
+
+/* ============================================
+   Mensaje flotante de bienvenida
+   ============================================ */
+#welcome-message {
+    position: fixed;
+    top: 32px;
+    left: 50%;
+    transform: translate(-50%, -20px);
+
+    z-index: 950;
+    max-width: 420px;
+    width: calc(100% - 48px);
+
+    padding: 20px 26px;
+    text-align: center;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 214, 231, 0.92));
+    color: #6b2748;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(163, 19, 79, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+#welcome-message p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#welcome-message.show {
+    opacity: 1;
+    transform: translate(-50%, 0);
+    pointer-events: auto;
+}
+
+@media (max-width: 640px) {
+    #welcome-message {
+        top: 18px;
+        padding: 16px 20px;
+    }
+
+    #welcome-message p {
+        font-size: 0.9rem;
     }
 }
