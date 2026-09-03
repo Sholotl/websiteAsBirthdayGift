@@ -1,7 +1,7 @@
 [
   {
     "id": "lugar_01",
-    "titulo": "El parque cerca de galerias",
+    "titulo": "El parque cerca de galerias 05/12/25",
     "nota": "Aún recuerdo cuando me declaré, estaba como suuper nervioso. La verdad iba a declararme un poco antes. Pero en serio es difícil declararse cuando dices \"qué naco declararse en un parque\". Bueno, al final todo salió bien, y pues estoy muy contento de todo lo que hemos hecho a lo largo de este tiempo. Eres una persona muy especial para mí, y de verdad haces de los momentos cotidianos algo por lo que me emociono.",
     "foto": "src/assets/photos/051225.jpg",
     "audio": null
@@ -22,41 +22,48 @@
   },
   {
     "id": "lugar_04",
+    "titulo": "Día San Valentín",
+    "nota": "( :3 ) Estabamos muy polluelos, a mi me emocionaba mucho porque siempre veo el dia de San Valentín como algo muy sentimental y ese dia estaba MUY agradecida de tener un novio bonito y estar juntos y abrazarnos mucho, ese dia se sintio muy intimo y acogedor, senti conocer mucho a Yolo porque estuvimos en su cuarto con su gata y siempre lo veia en sus fotos, jugue roblox en una pc pro y me senti muy querida y como en un k-drama que siempre veo, ademas al final me regalo unos tulipanes y son MUY hermosos y son como las flores que mas recuerdo <3, fue como muy importante para mi incluso antes y despues, antes estaba muy emocionada mm yolo me invito a su casa y me parece algo muy intimo hasta me puse ropa interior rosa porque el dia se sentia como cuando ves todo de rosa, despues regrese a mi casa y recuerdo estar SUPER atontada como acostarme en mi cama y no usar el celular solo mirar al techo y pensar en que queria DEMASIADO a Yolo, bueno sigo queriendo jsjs",
+    "foto": "src/assets/photos/140226.jpg",
+    "audio": null
+  },
+  {
+    "id": "lugar_05",
     "titulo": "Scream 7 en cinépolis",
     "nota": "Pues creo que hasta la fecha sigue siendo la única \"película de terror\" que de verdad me ha gustado. Pues estaba muy graciosa, como que no sé, las demás luego se alucinan mucho. Creo que me gusta que esté super chafa. No tan chafa para no ser disfrutable, solo gracioso. Lo único malo fue que estuvo muy caro para lo que fue. El VIP no siento que valga tanto la pena nono.",
     "foto": "src/assets/photos/050326.jpeg",
     "audio": null
   },
   {
-    "id": "lugar_05",
+    "id": "lugar_06",
     "titulo": "El parque metropolitano",
     "nota": "Sabes, creo que este día tiene un aura muy épica. Lo recuerdo y siento que fue así, salida bien intelectual. Pues ir al museo creo que estuvo bien, estuvo más interesante de lo que pensaba. Y aparte, fue la primera vez que te llevé manejando. Recuerdo que dijiste que estaba de miedo y que tenías dudas de si sabía manejar. Ay no, bueno, pero estuvo bien, aparte pues estuvo super bonito el lugar.",
     "foto": "src/assets/photos/050426.jpeg",
     "audio": null
   },
   {
-    "id": "lugar_06",
+    "id": "lugar_07",
     "titulo": "Hokum en cinépolis",
     "nota": "Aún es como super de pena no haber podido ir al festival de los molletes ahh. Aunque es una lástima, tampoco me arrepiento nono, creo que estar solos en el coche escuchando música está muy padre. Ese día se sintió muy íntimo y como padre. Y bueno, aunque la película no haya sido así super épica, la verdad creo que ejemplifica bien lo de \"la salida es una excusa para verse\". Estuvo muy bien la verdad.",
     "foto": "src/assets/photos/050526.jpeg",
     "audio": null
   },
   {
-    "id": "lugar_07",
+    "id": "lugar_08",
     "titulo": "La panaderia esperanza",
     "nota": "La verdad está padre salir luego de clases, ir por un pastel y estar tranquilos creo que fue algo bastante relajante. Me gustó mucho que ese día se sintió especialmente especial, te había traído flores y un pastel. Bueno, nunca te lo dije, pero compré un pastel que se arruinó porque no se refrigeró bien. Se quedó super aguado. Así que pues sugerí ir a La Esperanza. Pensé que eso le iba a quitar muchos puntos al regalo. Pero al final fue más divertido ir y escogerlo entre los dos.",
     "foto": "src/assets/photos/050626.jpg",
     "audio": null
   },
   {
-    "id": "lugar_08",
+    "id": "lugar_09",
     "titulo": "Mundial luego de la hacienda",
     "nota": "Pues viéndolo en retrospectiva, tal vez el plan no era super super épico. Claro, es algo que disfruto mucho, y genuinamente me alegra mucho estar tan cerca de ti, de todas las formas posibles. Pero pues me pregunto si también es así para ti, o si tal vez prefieres otras cosas. Sé que también te gusta hacer este tipo de cosas, pero solo me pregunto si hubiera sido mejor hacer otras cosas. De cualquier forma, ese día de verdad lo disfruté mucho.",
     "foto": "src/assets/photos/050726.jpg",
     "audio": null
   },
   {
-    "id": "lugar_09",
+    "id": "lugar_10",
     "titulo": "El coliseo con el jacuzzi",
     "nota": "La verdad, aunque me queje de que puede que no sea un gran plan, específicamente ese día estuvo super bien. Recientemente habíamos probado ir a la regadera, y creo que mm nunca me había sentido tan cerca de alguien. Claro, este tipo de cosas se sienten bien, pero no solo es eso, de verdad creo que el perderle la pena a exponerse más íntimamente fue algo como super importante para mí. Y bueno, sin mencionar el jacuzzi, que bueno, deja que desear en el apartado sexual supongo, pero es innegable que está padre estar ahí sin más durante mucho tiempo y relajarse. Realmente terapéutico...",
     "foto": "src/assets/photos/050826.jpeg",
