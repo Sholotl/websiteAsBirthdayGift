@@ -3,63 +3,63 @@
     "id": "lugar_01",
     "titulo": "El parque cerca de galerias",
     "nota": "Realmente es muy loco pensar",
-    "foto": "src/assets/photos/051225.JPG",
+    "foto": "src/assets/photos/051225.jpg",
     "audio": null
   },
   {
     "id": "lugar_02",
     "titulo": "Cholula cuidad sagrada",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050126.JPG",
+    "foto": "src/assets/photos/050126.jpg",
     "audio": null
   },
   {
     "id": "lugar_03",
     "titulo": "El ecologico",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050226.JPG",
+    "foto": "src/assets/photos/050226.jpg",
     "audio": null
   },
   {
     "id": "lugar_04",
     "titulo": "Scream 7 en cinepolis",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050326.JPEG",
+    "foto": "src/assets/photos/050326.jpeg",
     "audio": null
   },
   {
     "id": "lugar_05",
     "titulo": "El parque metropolitano",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050426.JPEG",
+    "foto": "src/assets/photos/050426.jpeg",
     "audio": null
   },
   {
     "id": "lugar_06",
     "titulo": "Hokum en cinepolis",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050526.JPEG",
+    "foto": "src/assets/photos/050526.jpeg",
     "audio": null
   },
   {
     "id": "lugar_07",
     "titulo": "La panaderia esperanza",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050626.JPG",
+    "foto": "src/assets/photos/050626.jpg",
     "audio": null
   },
   {
     "id": "lugar_08",
     "titulo": "Mundial luego de la hacienda",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050726.JPG",
+    "foto": "src/assets/photos/050726.jpg",
     "audio": null
   },
   {
     "id": "lugar_09",
     "titulo": "El coliseo con el jacuzzi",
     "nota": "Es muy loco que en el ecologico",
-    "foto": "src/assets/photos/050826.JPEG",
+    "foto": "src/assets/photos/050826.jpeg",
     "audio": null
   }
 ]
