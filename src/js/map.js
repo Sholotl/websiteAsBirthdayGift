@@ -1,6 +1,11 @@
 export let map = L.map('map').setView([19.0485386, -98.2166069], 15)
 export let markers = {};
 
+let iconPath = '../public/markerIcon.png'
+let locationsPath = './src/data/locations.json'
+let contentPath = './src/data/content.json'
+
+
 const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
 	maxZoom: 20,
@@ -11,7 +16,7 @@ const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/ali
 map.zoomControl.remove();
 
 const customIcon = L.icon({
-    iconUrl: '../public/markerIcon.png',
+    iconUrl: iconPath,
     iconSize: [64, 84],
     iconAnchor: [32, 82],
     popupAnchor: [0, -84]
@@ -24,9 +29,10 @@ function createMarkers(locations, content)
         let info = content.find(item => item.id === location.id);
 
         let popup = `
-            <h2>${info.titulo}</h2>
-            <p>${info.nota}</p>
-            <img src="${info.foto}" alt="${info.titulo}">
+            <h2>${info.title}</h2>
+            <p>${info.date[1]}/${info.date[0]}/${info.date[2]}</p>
+            <p>${info.note}</p>
+            <img src="${info.photo}" alt="${info.title}">
         `;
 
         if (info.audio !== null) {
@@ -47,13 +53,13 @@ function createMarkers(locations, content)
 
 function loadLocations()
 {
-	return fetch("./src/data/locations.json")
+	return fetch(locationsPath) // Locations path
         .then(response => response.json());
 }
 
-function loadContent()
+function loadContent() 
 {
-	return fetch("./src/data/content.json")
+	return fetch(contentPath) // Content path
         .then(response => response.json());
 }
 

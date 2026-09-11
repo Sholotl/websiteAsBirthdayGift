@@ -9,7 +9,7 @@ ready.then(({ locations, content }) => {
         const li = document.createElement("li");
  
         li.classList.add("sidebar-item");
-        li.textContent = info.titulo;
+        li.textContent = info.title;
         
         li.addEventListener("click", () => {
             const zoom = 15;
