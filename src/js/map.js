@@ -11,7 +11,7 @@ const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/ali
 map.zoomControl.remove();
 
 const customIcon = L.icon({
-    iconUrl: 'public/markerIcon.png',
+    iconUrl: '../public/markerIcon.png',
     iconSize: [64, 84],
     iconAnchor: [32, 82],
     popupAnchor: [0, -84]
@@ -47,13 +47,13 @@ function createMarkers(locations, content)
 
 function loadLocations()
 {
-	return fetch("src/data/locations.json")
+	return fetch("./src/data/locations.json")
         .then(response => response.json());
 }
 
 function loadContent()
 {
-	return fetch("src/data/content.json")
+	return fetch("./src/data/content.json")
         .then(response => response.json());
 }
 

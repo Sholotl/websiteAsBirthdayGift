@@ -11,6 +11,6 @@ startButton.addEventListener("click", function() {
  
         setTimeout(() => {
             welcomeMessage.classList.remove("show");
-        }, 5000);
+        }, 5000); // This is the parameter that controls how long it takes for the welcome message to hide Chameeee aflñdksfj
     }, { once: true });
 });

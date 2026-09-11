@@ -1,4 +1,4 @@
-import { map, markers, ready } from "../../map.js";
+import { map, markers, ready } from "./map.js";
  
 ready.then(({ locations, content }) => {
     const sidebarList = document.getElementById("sidebar-list");
