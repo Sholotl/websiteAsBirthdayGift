@@ -5,6 +5,7 @@ let iconPath = '../public/markerIcon.png'
 let locationsPath = './src/data/locations.json'
 let contentPath = './src/data/content.json'
 
+// tile Provider: Stadia Maps - Alidade Smooth ----->
 
 const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
@@ -15,12 +16,16 @@ const Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/ali
 }).addTo(map);
 map.zoomControl.remove();
 
+// Custom marker icon ----->
+
 const customIcon = L.icon({
     iconUrl: iconPath,
     iconSize: [64, 84],
     iconAnchor: [32, 82],
     popupAnchor: [0, -84]
 });
+
+//------------------------------
 
 function createMarkers(locations, content) 
 {
