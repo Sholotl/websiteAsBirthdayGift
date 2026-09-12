@@ -1,7 +1,7 @@
 export let map = L.map('map').setView([19.0485386, -98.2166069], 15)
 export let markers = {};
 
-let iconPath = '../public/markerIcon.png'
+let iconPath = './public/markerIcon.png'
 let locationsPath = './src/data/locations.json'
 let contentPath = './src/data/content.json'
 
