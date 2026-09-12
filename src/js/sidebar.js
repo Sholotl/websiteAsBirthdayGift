@@ -1,6 +1,7 @@
 import { map, markers, ready } from "./map.js";
  
 ready.then(({ locations, content }) => {
+
     const sidebarList = document.getElementById("sidebar-list");
  
     for (let location of locations) {
@@ -21,6 +22,7 @@ ready.then(({ locations, content }) => {
                 duration: 1.5,
                 easeLinearity: 0.25
             });
+            
             map.once('moveend', () => {
                 markers[location.id].openPopup();
             });

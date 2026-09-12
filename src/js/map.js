@@ -44,8 +44,8 @@ function createMarkers(locations, content)
             popup += `
                 <audio controls>
                     <source src="${info.audio}" type="audio/mpeg">
-                    Tu navegador no soporta audio.
-                </audio>
+                    Tu navegador no soporta audio.   
+                </audio>  
             `;
         }
 

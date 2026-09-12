@@ -41,45 +41,77 @@ def addPop(newContent, newLocation):
     save(contentPath, sortContent(content))
 
 
-newC = {
-    "date": [
-      2,
-      2,
-      2026
-    ],
-    "title": "Cuando Yolo jugaba roblox...",
-    "note": "Cuando empezábamos a juegar yo no tenia idea de muchos juegos y me ENCANTA roblox, entonces era lo único que jugábamos, debo decir que también eran muy buenos tiempos ahora Yolo ya dice que no y hemos probado mas juegos también muy interesantes, probablemente de las mejores cosas que le paso a la relación, es muy divertido y gracioso jugar juntos, se siente como algo muy cercano que ahora forma parte de mi dia a dia, gracias ROBLOX y Yolo, los amo MUCHO a ambos. ",
-    "photo": "src/assets/photos/020226.png",
-    "audio": None,
-    "hide": False
-    }
-
-newL = {
-    "lat": 19.0726359,
-    "lng": -98.2222316,
-    "date": [
-      2,
-      2,
-      2026
-    ]
-    }
-
-addPop(newC, newL)
-
-
-"""x
-def removePop():
+def removePop(ID=None):
+    format("RemovePop")
     locations = loadLocation()
     content = loadContent()
 
-    if len(locations) > 0:
-        locations.pop()
-        content.pop()
+    if ID is None:
+        ID = max(x["id"] for x in locations)
+
+    locations = [x for x in locations if x["id"] != ID]
+    content = [x for x in content if x["id"] != ID]
 
     save(locationsPath, sortLocations(locations))
-    save
+    save(contentPath, sortContent(content))
 
-"""
+""" -------------------------------Useless def - just format-------------------------------"""
+
+def format(texto, length = 80, bar_length = 70):
+    print(("_" * bar_length).center(length))
+    print(texto.center(length))
+    print(("¯" * bar_length).center(length))
+
+"""--------------------------"""
+
+def newData():
+    format("Content")
+    day, month, year = input("Enter the date (dd/mm/yyyy): ").split("/")
+    date = [int(day), int(month), int(year)]
+    title = input("Enter the title: ")
+    note = input("Enter the note: ")
+    photo = input("Enter the photo path: ")
+    audio = input("Enter the audio path: ") or None
+    hide = input("Hide (True/False): ").strip().lower() == "true"
+
+    format("Locations")
+    lat, lng = input("Enter the latitude and longitude (lat, lng): ").split(",")
+
+    newContent = {
+        "date": date,
+        "title": title,
+        "note": note,
+        "photo": photo,
+        "audio": audio,
+        "hide": hide
+    }
+
+    newLocation = {
+        "lat": float(lat.strip()),
+        "lng": float(lng.strip()),
+        "date": date
+    }
+
+    addPop(newContent, newLocation)
+
+
+if __name__ == "__main__":
+    format("UwU")
+    print("1 - add pop \n2 - remove pop")
+    
+
+    match input("Option: "):
+        case "1": newData()
+        case "2": 
+            if Id:=input("ID: "):
+                removePop(Id)
+            else: removePop()
+
+
+
+
+
+
 
 
 
