@@ -1,6 +1,7 @@
-import { map, markers, ready } from "../../map.js";
+import { map, markers, ready } from "./map.js";
  
 ready.then(({ locations, content }) => {
+
     const sidebarList = document.getElementById("sidebar-list");
  
     for (let location of locations) {
@@ -9,7 +10,7 @@ ready.then(({ locations, content }) => {
         const li = document.createElement("li");
  
         li.classList.add("sidebar-item");
-        li.textContent = info.titulo;
+        li.textContent = info.title;
         
         li.addEventListener("click", () => {
             const zoom = 15;
@@ -21,6 +22,7 @@ ready.then(({ locations, content }) => {
                 duration: 1.5,
                 easeLinearity: 0.25
             });
+            
             map.once('moveend', () => {
                 markers[location.id].openPopup();
             });
