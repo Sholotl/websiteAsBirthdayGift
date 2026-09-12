@@ -1,1 +1,41 @@
 mmuwu me presento soy chami :3 03/09/26
+
+# websiteAsBirthdayGift
+
+## Project structure
+
+```text
+websiteAsBirthdayGift/
+├── .git/                 # Git configuration
+├── .gitignore            # files ignored by Git
+├── index.html            # main web page file
+├── package.json          # project dependencies and configuration
+├── package-lock.json     # npm dependency lock file
+├── readme                # project documentation
+├── node_modules/         # installed npm dependencies
+├── public/               # public project resources
+│   ├── icon.png
+│   └── markerIcon.png
+├── src/                  # project source code
+│   ├── assets/           # multimedia and visual resources
+│   │   ├── audio/
+│   │   └── photos/
+│   ├── js/               # frontend logic
+│   │   ├── frontpage.js
+│   │   ├── map.js
+│   │   └── sidebar.js
+│   ├── py/               # Python scripts
+│   │   └── Organizer.py
+│   └── styles/           # site styles
+│       └── style.css
+└──
+```
+
+## Overview
+
+This project is a birthday gift website with a simple structure based on HTML, CSS, and JavaScript, along with a Python script used to organize or prepare data related to the site content.
+
+- The visual and interactive part is located in the src folder.
+- Public files such as icons are stored in public.
+- The main entry point of the site is index.html.
+- Project dependencies are managed through package.json.

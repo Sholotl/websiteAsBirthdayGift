@@ -212,7 +212,11 @@ body {
     background: linear-gradient(180deg, var(--pink-2), var(--pink-deep));
     border-radius: 10px;
 }
- 
+
+/* ============================================
+   Popup
+   ============================================ */
+
 .leaflet-popup-content-wrapper {
     background: linear-gradient(160deg, #fff 0%, var(--cream) 100%);
     color: var(--text-dark);
@@ -245,7 +249,7 @@ body {
     line-height: 1.6;
     text-align: left;
 
-    max-height: 100px;            /* crece libremente hasta aquí, luego scrollea */
+    max-height: 135px;            /* crece libremente hasta aquí, luego scrollea */
     overflow-y: auto;
     padding-right: 10px;
 }
@@ -263,6 +267,7 @@ body {
     width: 100%;                  /* igual que el original: se ajusta al ancho del popup */
     border-radius: 14px;
     margin-bottom: 14px;
+    margin-top: 14px;
     display: block;
     box-shadow: 0 6px 16px rgba(163, 19, 79, 0.2);
     /* sin height fija, sin object-fit, sin background: la foto se ve tal cual, proporcional */
