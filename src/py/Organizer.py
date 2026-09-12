@@ -40,32 +40,32 @@ def addPop(newContent, newLocation):
     save(locationsPath, sortLocations(locations))
     save(contentPath, sortContent(content))
 
-"""
+
 newC = {
     "date": [
-      11,
-      9,
+      2,
+      2,
       2026
     ],
-    "title": "holi chami",
-    "note": "Desde la Mac de chame",
-    "photo": "src/assets/photos/051225.jpg",
+    "title": "Cuando Yolo jugaba roblox...",
+    "note": "Cuando empezábamos a juegar yo no tenia idea de muchos juegos y me ENCANTA roblox, entonces era lo único que jugábamos, debo decir que también eran muy buenos tiempos ahora Yolo ya dice que no y hemos probado mas juegos también muy interesantes, probablemente de las mejores cosas que le paso a la relación, es muy divertido y gracioso jugar juntos, se siente como algo muy cercano que ahora forma parte de mi dia a dia, gracias ROBLOX y Yolo, los amo MUCHO a ambos. ",
+    "photo": "src/assets/photos/020226.png",
     "audio": None,
     "hide": False
     }
 
 newL = {
-    "lat": 20.1172903,
-    "lng": -100.3055894,
+    "lat": 19.0726359,
+    "lng": -98.2222316,
     "date": [
-      11,
-      9,
+      2,
+      2,
       2026
     ]
     }
 
 addPop(newC, newL)
-"""
+
 
 """x
 def removePop():
