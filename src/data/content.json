@@ -1,5 +1,18 @@
 [
   {
+    "id": 12,
+    "date": [
+      26,
+      11,
+      2025
+    ],
+    "title": "Pizza primer semestre",
+    "note": "Esa foto me recuerda a el primer semestre de uni, estaba todo muy padre ademas es donde me empezaba a gustar mucho Yolo y se sentía muy genial pasar mucho tiempo al lado de quien te gusta, teníamos como 3 meses de conocernos, es loco pensar que 9 días después fuimos novios. Me dio mucha risa ese día, Lisardo como mis peperonis. Caminan mucho esos Chaves y encima en el sol como en las pizzas o cuando íbamos a Starbecks y al final ni quisieron nada y se regresaron, tipo era caminar mucho por muy poco o mm nada xdd pero estaba divertido. Nunca pensé conocer a gente ingeniebra pero rompieron muchos mm estereotipos que tenia eran como muy normales a veces.",
+    "photo": "src/assets/photos/261125.jpg",
+    "audio": null,
+    "hide": false
+  },
+  {
     "id": 1,
     "date": [
       5,
